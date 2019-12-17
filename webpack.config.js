@@ -11,7 +11,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: require.resolve('src/index.js'),
+        test: require.resolve(path.join( __dirname, "src/index.js" )),
         use: 'imports-loader?this=>window',
       },
     ],

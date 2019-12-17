@@ -4,3 +4,5 @@ Some legacy projects rely on `this` being the `window` object. e.g `this.alert()
 
 #### Build by webpack
 1. run `npm run build`
+2. run `node dist/main.js`
+You will see **window is not defined** error from terminal
