@@ -7,3 +7,4 @@ Taking the `lodash` as the third party example.
 #### Build by webpack
 1. run `npm run build`
 2. Open index.html through browser
+Check the output from browser console.
