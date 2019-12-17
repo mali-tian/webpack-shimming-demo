@@ -1,8 +1,8 @@
-# Demo of webpack shimming
+# Demo of webpack shimming Globals
 
-Including the Shimming Globals, Granular Shimming, Global Exports and Polyfill.
+Some third party libariries may expected global dependences(e.g: `$` for `jQuery`). which is not suggested by webpack.
 
-Taking the `lodash` as the third party example.
+Taking the `lodash` as the third party example, let's say provide the `lodash` as a global throughout our application.
 
 #### Build by webpack
 1. run `npm run build`
