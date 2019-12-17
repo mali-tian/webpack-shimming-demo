@@ -1,4 +1,4 @@
-# Demo of webpack shimming
+# Demo of webpack global exports
 
 Some varibles we would like to export so that other consumer could use, in this sample, we create `globals.js`, using webpack export the `file` and `helpers.parse` as global variables.
 
