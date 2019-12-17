@@ -1,9 +1,12 @@
-import _ from 'lodash';
+import { file, parse } from './globals';
 
 function component() {
   const element = document.createElement('dev');
 
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+  element.innerHTML = join(['Hello', 'webpack'], ' ');
+
+  console.log(file);
+  parse();
 
   return element;
 }
