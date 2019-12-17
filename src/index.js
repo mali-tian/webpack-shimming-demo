@@ -1,9 +1,9 @@
-import _ from 'lodash';
-
 function component() {
   const element = document.createElement('dev');
 
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+  element.innerHTML = join(['Hello', 'webpack'], ' ');
+  
+  this.alert('Hmmm, this probably isn\'t a great idea...')
 
   return element;
 }
