@@ -4,7 +4,7 @@
   "description": "Including the Shimming Globals, Granular Shimming, Global Exports and Polyfill",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "devDependencies": {
     "webpack": "^4.41.3",
     "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
   }
 }
