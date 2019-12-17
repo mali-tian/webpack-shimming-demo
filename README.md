@@ -1,8 +1,7 @@
-# Demo of webpack shimming
+# Demo of webpack polyfills
 
-Including the Shimming Globals, Granular Shimming, Global Exports and Polyfill.
-
-Taking the `lodash` as the third party example.
+Some old version browsers not very good at supporting HTML5 implementation, need polyfills to resolve this problem.
+Use the `whatwg-fetch` polyfill as example.
 
 #### Build by webpack
 1. run `npm run build`
